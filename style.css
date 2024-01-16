@@ -4,13 +4,15 @@
     font-family: 'Mulish', sans-serif;
 }
 
+/* nav section */
+
 nav {
     height: 80px;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    
+
 
 }
 
@@ -24,18 +26,19 @@ label.logo {
     display: flex;
     padding-top: 50px;
 }
-label img{
+
+label img {
     max-width: 48px;
 }
 
 
-label .explore{
+label .explore {
     color: #FF5400;
 }
 
 nav ul {
     float: right;
-    margin-right: 40px;
+    margin-right: 73px;
     margin-top: 50px;
 
 }
@@ -46,7 +49,7 @@ nav li {
     /* line-height: 80px; */
 }
 
-nav .place{
+nav .place {
     color: #FF5400;
     text-align: center;
     font-family: 'Mulish';
@@ -76,49 +79,85 @@ nav #icon {
     padding-top: 50px;
 }
 
-@media (max-width: 1048px) {
-    label.logo {
-        font-size: 32px;
-        padding-left: 60px;
-    }
-
-    nav ul {
-        margin-right: 20px;
-
-    }
-
-    nav a {
-        font-size: 17px;
-    }
+.banner-section {
+    display: flex;
+    /* align-items: center; */
+    max-width: 1170px;
+    margin: 0 auto;
+    margin-top: 50px;
 
 }
 
-@media (max-width: 909px) {
-    nav #icon {
-        display: block;
-    }
+.banner-img {
+    width: 100%;
+    border-radius: 16px;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('Images/Group\ 13\ \(1\)\ \(1\).png');
+    background-repeat: no-repeat;
+    padding: 100px;
+    backface-visibility: hidden;
+    background-size: cover;
 
-    nav ul {
-        position: fixed;
-        width: 100%;
-        height: 100vh;
-        top: 80px;
-        left: -100%;
-        text-align: center;
-        transition: all .5s;
-    }
+}
 
-    nav li {
-        display: block;
-        margin: 50px 0;
-        line-height: 30px;
-    }
+.banner-text {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
 
-    nav a {
-        font-size: 20px;
-    }
+.banner-title {
+    color: #FFF;
+    font-family: 'Mulish';
+    font-size: 50px;
+    font-weight: 800;
+}
 
-    nav ul.show {
-        left: 0;
-    }
+.banner-description {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Mulish';
+    font-size: 12px;
+    padding-top: 4px;
+    font-weight: 400;
+}
+
+.form {
+    display: flex;
+    gap: 5px;
+    /* padding-top: 20px;
+    padding-bottom: 20px; */
+    padding: 20px 0px;
+    justify-content: center;
+    margin-top: 80px;
+    margin-bottom: 40px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+
+}
+
+.form input {
+    padding: 10px 10px;
+    border-radius: 8px;
+    border: none;
+}
+
+ .button{
+    color: white;
+    background-color: #FF5400;
+    padding: 10px 40px;
+    border-radius: 8px;
+   display: flex;
+   gap: 10px;
+   border: none;
+   align-items: center;
+    
+
+}
+
+.option {
+    padding: 10px 40px;
+    border-radius: 8px;
+
+
 }

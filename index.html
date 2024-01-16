@@ -10,17 +10,21 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,300;0,500;0,600;0,700;1,300;1,500;1,700&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script  src="https://code.jquery.com/jquery-3.7.1.slim.min.js" integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script src="https://code.jquery.com/jquery-3.7.1.slim.min.js"
+        integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8=" crossorigin="anonymous"></script>
     <script>
-    $(document).ready(function(){
-        $('#icon').click(function(){
-            $('ul').toggleClass('show')
+        $(document).ready(function () {
+            $('#icon').click(function () {
+                $('ul').toggleClass('show')
+            });
         });
-    });
-</script>
-     
+    </script>
+
 </head>
 
 <body>
@@ -28,9 +32,10 @@
         <nav>
             <label class="logo">
                 <img src="Images/Group 40071 (2).png" alt="">
-                <p>Travel <span class="explore"> Explore</span></p></label>
+                <p>Travel <span class="explore"> Explore</span></p>
+            </label>
             <ul>
-                <li><a href=""class="place">Home</a></li>
+                <li><a href="" class="place">Home</a></li>
                 <li><a href="">Packages</a></li>
                 <li><a href="">Testimonial</a></li>
                 <li><a href="">Blog</a></li>
@@ -38,9 +43,32 @@
             </ul>
             <label id="icon">
                 <i class="fa fa-bars"></i>
-                
             </label>
         </nav>
+
+        <!-- banner section -->
+        <section class="banner-section">
+            <div class="banner-img">
+                <div class="banner-text">
+                    <p class="banner-title">Explore Your Travel</p>
+                    <p class="banner-description">Traveling and exploration are powerful avenues for personal growth and
+                        enrichment. Beyond the physical act of moving from one place to another, travel opens up a world
+                        of experiences, cultures, and perspectives. It is a journey not only through geographical.</p>
+                </div>
+                <div class="form">
+                    <input class="go" type="text" id="text" placeholder="Where go">
+                    <select class="option">
+                        <option value="option1">When</option>
+                    </select>
+                    <select class="option">
+                        <option value="option1">Select Type</option>
+                    </select>
+                    <button class="button"><i class="fa fa-search"></i>Find Now</button>
+                </div>
+
+
+            </div>
+        </section>
     </header>
 </body>
 
