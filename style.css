@@ -71,6 +71,7 @@ nav #icon {
     font-size: 20px;
     line-height: 80px;
     float: right;
+    align-items: center;
     margin-right: 40px;
     cursor: pointer;
     display: none;
@@ -89,6 +90,9 @@ nav #icon {
     border-radius: 16px;
     background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('Images/Group\ 13\ \(1\)\ \(1\).png');
     background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
     padding: 100px;
     backface-visibility: hidden;
     background-size: cover;
@@ -97,6 +101,9 @@ nav #icon {
 
 .banner-img img {
     width: 100%;
+
+    align-items: center;
+    background: cover;
 
 }
 
@@ -149,6 +156,7 @@ nav #icon {
     padding: 10px 40px;
     border-radius: 8px;
     display: flex;
+    justify-content: space-between;
     gap: 10px;
     border: none;
     align-items: center;
@@ -224,7 +232,7 @@ nav #icon {
     margin-top: 32px;
 }
 
-
+/* destination container */
 
 .destination h3 {
     color: #131318;
@@ -268,7 +276,7 @@ nav #icon {
 
 
 
-.container-img img {
+.container-img img{
     width: 100%;
     background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%);
     border-radius: 16px;
@@ -290,12 +298,26 @@ nav #icon {
 
 }
 
+.container-img1 img{
+    width: 100%;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%);
+    border-radius: 16px;
 
+
+}
+
+.container-img2 img{
+    width: 100%;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%);
+    border-radius: 16px;
+
+}
 .container-img2 {
     width: 100%;
     display: grid;
     grid-template-columns: 2fr 3fr;
     gap: 20px;
+    
 }
 
 .img-box {
@@ -320,7 +342,7 @@ nav #icon {
     transform: translate(-50%, -50%);
 }
 
-
+/* choose us container section 4 */
 
 .choose-title {
     text-align: center;
@@ -450,7 +472,6 @@ nav #icon {
 }
 
 .form-section {
-    /* height: 100%; */
     width: 80%;
     padding: 30px 20px;
     border: 1px solid red;
