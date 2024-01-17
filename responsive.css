@@ -53,6 +53,28 @@
         padding: 10px auto;
     }
 
+.section1{
+    display: flex;
+    flex-direction: column;
 
+}
+.section1-content{
+    margin-bottom: 10px;
+}
 
+.container-img{
+    grid-template-columns: 1fr;
+
+}
+.container-img1{
+    grid-template-columns: 1fr;
+}
+.container-img2{
+    grid-template-columns: 1fr;
+}
+.hotel-service{
+    display: flex;
+    flex-direction: column;
+    gap:15px
+}
 }
